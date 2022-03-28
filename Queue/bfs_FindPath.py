@@ -11,13 +11,13 @@ def is_valid(row, col, numRows, numCols, matrix, visited):
 
 def getPath(matrix, numRows, numCols):
     queue = deque()
-    row, col = 0, 0
-    queue.append((row, col, 0))
+    r, c = 0, 0
+    queue.append((r, c, 0))
 
     visited = [[False for _ in range(numCols)] for _ in range(numRows)]
     distance_matrix = [[-1 for _ in range(numCols)] for _ in range(numRows)]
 
-    visited[row][col] = True
+    visited[r][c] = True
 
     while queue:
         row, col, distance = queue.popleft()
@@ -56,7 +56,7 @@ if __name__ == '__main__':
         [0, 0, 1, 1]
     ]
 
-    #print(getPath(matrix, numRows, numCols))
+    print(getPath(matrix, numRows, numCols))
 
 
     numRows = 3
@@ -67,4 +67,4 @@ if __name__ == '__main__':
         [1, 9, 1]
     ]
 
-    print(getPath(matrix, numRows, numCols))
+#    print(getPath(matrix, numRows, numCols))
