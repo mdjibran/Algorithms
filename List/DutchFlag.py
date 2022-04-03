@@ -26,8 +26,8 @@ def SortLst(pivot_index: int, lst:  list):
 
 
 #print(SortLst(5, [11,19,21,17,9,5,4,13,2,8,20]))
-print(SortLst(2, [0,1,2,0,2,1,1]))
-
+#print(SortLst(2, [0,1,2,0,2,1,1]))
+print(SortLst(4, [0,6,11,14,6,2,-1,62]))
 
 '''
 

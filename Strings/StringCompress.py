@@ -22,4 +22,4 @@ def conpress(s: str) -> str:
 
 
 #
-print(conpress('aabcccccaaa'))
+print(conpress('aabcccccaaaaaaaaaaaaaaaaaaaaaaaaaaa'))

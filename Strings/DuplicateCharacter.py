@@ -1,6 +1,3 @@
-from re import S
-
-
 def CheckDuplicate(s: str):
     s = ''.join(sorted(s))
     char1 = 0
